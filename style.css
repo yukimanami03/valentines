@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+#letter {
+    width: 220px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#letter:hover {
+    transform: scale(1.05);
+}
+
+#card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#noBtn {
+    background-color: #ccc;
+    color: black;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+#thankYou h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#thankYou p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
